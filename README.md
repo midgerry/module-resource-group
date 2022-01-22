@@ -6,7 +6,7 @@ Module for creating and managing Azure Resource Groups.
 
 ```
 module "resource_group" {
-  source = "git://https://github.com/danielscholl-terraform/module-resource-group"
+  source = "git::https://github.com/danielscholl-terraform/module-resource-group?ref=v1.0.0"
 
   name     = "iac-terraform"
   location = "eastus2"
