@@ -5,10 +5,10 @@ provider "azurerm" {
 module "resource_group" {
   source = "../"
 
-  name     = "iac-terraform"
-  location = "eastus2"
+  name     = "nimbus2"
+  location = "centralus"
 
   resource_tags = {
-    environment = "test-environment"
+    environment = "development"
   }
 }
